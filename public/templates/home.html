@@ -1,6 +1,14 @@
-
+  
 <div class="inner-container">
+  <div class="row">
   <h2><i class="fa fa-github fa-2x center-title">  Github Friends</i></h2>
+  </div>
+  <div class="friends">
+    <p>Github Friends</p>
+      <div ng-repeat="friend in friends">
+        id: <a href='#/friend/{{friend.login}}'>{{friend.login}}</a>
+      </div>
+  </div>
 
   <table class="table table-striped table-hover ">
       <thead>

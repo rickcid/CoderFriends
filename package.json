@@ -19,7 +19,9 @@
   "homepage": "https://github.com/rickcid/CoderFriends",
   "dependencies": {
     "body-parser": "^1.12.3",
+    "dotenv": "^1.1.0",
     "express-session": "^1.11.1",
+    "github": "^0.2.4",
     "passport": "^0.2.1",
     "passport-github": "^0.1.5"
   }
